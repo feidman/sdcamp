@@ -3,9 +3,9 @@
 [![Build Status](https://secure.travis-ci.org/larrycai/sdcamp.png)](http://travis-ci.org/larrycai/sdcamp)
 
 ## Introduction ##
-This is the source code for the Enterprise Agile Software Development book contents (Chinese). 
+This is the source code for the Agile Software Development book contents (Chinese). 
 
-?? You can always download the latest pdf book <https://github.com/downloads/larrycai/sdcamp/sdcamp.zh.community.book.pdf>
+(TBD) You can always download the latest pdf book <https://github.com/downloads/larrycai/sdcamp/sdcamp.zh.community.book.pdf>
 
 It covers:
 
@@ -25,6 +25,8 @@ Currently it will be released frequently (like quartly), now well followed ;-)
  * Current release is 1.0.0 2012.1.12 (40 pages)
 
 # How to generate book by yourself #
+
+**CodingWithMe** training slides [write book in markdown](http://www.slideshare.net/larrycai/write-book-in-markdown) can be used as reference to understand the technology behind it.
  
 Please check [BUILD.md](https://github.com/larrycai/sdcamp/blob/master/BUILD.md) for how to making ebooks and pdf by yourself.
 
@@ -42,4 +44,6 @@ correction, please email me at larry dot caiyu at gmail dot com to inform me.
 # Acknowledgement #
 It is powered by [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) toolset, thanks Fletcher Penney.
 
-Originally it is based on [John's pandoc](http://johnmacfarlane.net/pandoc/) and the scripts from [Pro Git](http://github.com/progit/progit) to make it happen
+[Markdownpad](http://markdownpad.com/) is used as my main editor, cute and easy to use.
+
+Originally it is based on [John's pandoc](http://johnmacfarlane.net/pandoc/) and the scripts from [Pro Git](http://github.com/progit/progit) to make it happen, and the Latex template are based on this book as well
