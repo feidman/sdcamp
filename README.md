@@ -1,11 +1,13 @@
 # Software Development Camp #
 
-[![Build Status](https://secure.travis-ci.org/larrycai/sdcamp.png)](http://travis-ci.org/larrycai/sdcamp)
+[![Build Status](https://secure.travis-ci.org/larrycai/sdcamp.png)](http://travis-ci.org/larrycai/sdcamp) in travis-ci
+
+[![Build Status](https://drone.io/github.com/larrycai/sdcamp/status.png)](https://drone.io/github.com/larrycai/sdcamp/latest) in drone
 
 ## Introduction ##
 This is the source code for the Agile Software Development book contents (Chinese). 
 
-(TBD) You can always download the latest pdf book <https://github.com/downloads/larrycai/sdcamp/sdcamp.zh.community.book.pdf>
+You can always download the latest auto-generated pdf book <https://drone.io/github.com/larrycai/sdcamp/files/sdcamp.pdf>
 
 It covers:
 
@@ -19,7 +21,7 @@ It covers:
  * One sample agenda for this training
 
 ## Release & History ##
-Currently it will be released frequently (like quartly), now well followed ;-)
+Currently it will be released frequently (like quarterly), now well followed ;-)
 
  * The next release will be 1.2.0 in 2012.2.14 (55 pages), see changes [v1.0.0->v1.2.0](https://github.com/larrycai/sdcamp/compare/v1.0.0...HEAD)
  * Current release is 1.0.0 2012.1.12 (40 pages)
