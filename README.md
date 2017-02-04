@@ -2,10 +2,8 @@
 
 [![Build Status](https://secure.travis-ci.org/larrycai/sdcamp.png)](http://travis-ci.org/larrycai/sdcamp) in travis-ci
 
-[![Build Status](https://drone.io/github.com/larrycai/sdcamp/status.png)](https://drone.io/github.com/larrycai/sdcamp/latest) in drone
-
 ## Introduction ##
-This is the source code for the Agile Software Development book contents (Chinese). 
+This is the source code for the Agile Software Development book contents (Chinese).
 
 You can always download the latest auto-generated pdf book <https://drone.io/github.com/larrycai/sdcamp/files/sdcamp.pdf>
 
@@ -29,14 +27,21 @@ Currently it will be released frequently (like quarterly), now well followed ;-)
 # How to generate book by yourself #
 
 **CodingWithMe** training slides [write book in markdown](http://www.slideshare.net/larrycai/write-book-in-markdown) can be used as reference to understand the technology behind it.
- 
+
 Please check [BUILD.md](https://github.com/larrycai/sdcamp/blob/master/BUILD.md) for how to making ebooks and pdf by yourself.
+
+## Docker ##
+
+docker image `larrycai/mmd-latex` contains all the envrionment you need, build in seconds
+
+    cd sdcamp
+    docker run -it --rm -v $PWD:/code -w /code larrycai/mmd-latex ./mmd2bok
 
 # License #
 It is licensed under
 the ![](http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png), see [CC BY NC ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/) for more.
 
-I hope you enjoy it, and it helps you learn better software development. 
+I hope you enjoy it, and it helps you learn better software development.
 
 # Errata #
 
