@@ -3,8 +3,7 @@
 [![Build Status](https://secure.travis-ci.org/larrycai/sdcamp.png)](http://travis-ci.org/larrycai/sdcamp) in travis-ci
 
 ## Introduction ##
-This is the source code for the Agile Software Development book contents (Chinese).
-
+This is the source code for the Agile Software Development book contents (Chinese).(敏捷软件开发)
 You can always download the latest auto-generated pdf book <https://drone.io/github.com/larrycai/sdcamp/files/sdcamp.pdf>
 
 It covers:
